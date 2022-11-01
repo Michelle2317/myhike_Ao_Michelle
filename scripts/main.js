@@ -42,7 +42,7 @@ function writeHikes() {
         province: "BC",
         level: "easy",
         length: "10",
-        details: "Elmo goes here regularly",
+        details: "Michelle goes here regularly",
         last_updated: firebase.firestore.FieldValue.serverTimestamp()
     });
     hikesRef.add({
@@ -52,7 +52,7 @@ function writeHikes() {
         province: "BC",
         level: "moderate",
         length: "10.5",
-        details: "Elmo goes here regularly",
+        details: "Michelle goes here regularly",
         last_updated: firebase.firestore.FieldValue.serverTimestamp()
     });
     hikesRef.add({
@@ -62,7 +62,7 @@ function writeHikes() {
         province: "BC",
         level: "hard",
         length: "8.2",
-        details: "Elmo goes here regularly",
+        details: "Michelle goes here regularly",
         last_updated: firebase.firestore.Timestamp.fromDate(new Date("March 10, 2022"))
     });
 }
